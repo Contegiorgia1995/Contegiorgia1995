@@ -1,0 +1,12 @@
+solve model, time: 0.05 sec
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('save')" style="font-weight:bold">save</a>
+Cannot create 'guess_111121.mat' because 'C:\Users\Giorgia\Dropbox\ReplicationProject\DairuchPaper\RESULTS' does
+not exist.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('calibrate', 'C:\Users\Giorgia\Dropbox\ReplicationProject\DairuchPaper\DairuchFiles\run_generic\calibrate.m', 130)" style="font-weight:bold">calibrate</a> (<a href="matlab: opentoline('C:\Users\Giorgia\Dropbox\ReplicationProject\DairuchPaper\DairuchFiles\run_generic\calibrate.m',130,0)">line 130</a>)
+                        save(sprintf('%s.mat',filename),'guess');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_compare_ss', 'C:\Users\Giorgia\Dropbox\ReplicationProject\DairuchPaper\DairuchFiles\run_compare_ss.m', 84)" style="font-weight:bold">run_compare_ss</a> (<a href="matlab: opentoline('C:\Users\Giorgia\Dropbox\ReplicationProject\DairuchPaper\DairuchFiles\run_compare_ss.m',84,0)">line 84</a>)
+        calibrate(x,options);
+} 
+<a href="matlab: opentoline('C:\Users\Giorgia\Dropbox\ReplicationProject\DairuchPaper\DairuchFiles\run_generic\calibrate.m',130,1)">130 </a>                        save(sprintf('%s.mat',filename),'guess');
