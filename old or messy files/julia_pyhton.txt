@@ -1,0 +1,16 @@
+
+{
+    "firstName": "fname",
+    "lastName": "lname",
+    "gender": "male",
+    "age": 25,
+    "address": {
+        "streetAddress": "26 colony",
+        "city": "Ahemdabad",
+        "state": "Gujarat",
+        "postalCode": "354323"
+    },
+    "phoneNumbers": [
+        { "type": "business", "number": "9323227323" }
+    ]
+}
